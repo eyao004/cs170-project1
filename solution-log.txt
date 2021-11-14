@@ -1,0 +1,651 @@
+Puzzle created.
+Printing initial state:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ]
+
+Printing goal state:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ]
+
+
+Choose heuristic (1-Manhattan Distance. 2-Misplaced Tiles. 3-Uniform Cost): 1
+A* with Manhattan Distance heuristic:
+Initial state:
+g(n): 0
+h(n): 9
+f(n): 9
+Searching at depth: 0. Size of queue: 0. Nodes expanded:0. h:9. f:9
+Searching at depth: 1. Size of queue: 3. Nodes expanded:4. h:10. f:11
+Searching at depth: 2. Size of queue: 13. Nodes expanded:18. h:9. f:11
+Searching at depth: 3. Size of queue: 31. Nodes expanded:47. h:10. f:13
+Searching at depth: 4. Size of queue: 60. Nodes expanded:107. h:11. f:15
+Searching at depth: 5. Size of queue: 72. Nodes expanded:130. h:12. f:17
+Searching at depth: 6. Size of queue: 109. Nodes expanded:228. h:13. f:19
+Searching at depth: 7. Size of queue: 125. Nodes expanded:253. h:12. f:19
+Searching at depth: 8. Size of queue: 183. Nodes expanded:375. h:11. f:19
+Searching at depth: 9. Size of queue: 213. Nodes expanded:422. h:10. f:19
+Searching at depth: 10. Size of queue: 261. Nodes expanded:551. h:11. f:21
+Searching at depth: 11. Size of queue: 431. Nodes expanded:965. h:12. f:23
+Searching at depth: 12. Size of queue: 649. Nodes expanded:1554. h:13. f:25
+Searching at depth: 13. Size of queue: 669. Nodes expanded:1589. h:12. f:25
+Searching at depth: 14. Size of queue: 825. Nodes expanded:2434. h:13. f:27
+Searching at depth: 15. Size of queue: 911. Nodes expanded:2666. h:12. f:27
+Searching at depth: 16. Size of queue: 1095. Nodes expanded:3602. h:13. f:29
+Searching at depth: 17. Size of queue: 1136. Nodes expanded:3676. h:12. f:29
+Searching at depth: 18. Size of queue: 1268. Nodes expanded:4183. h:11. f:29
+Searching at depth: 19. Size of queue: 1272. Nodes expanded:4217. h:10. f:29
+Searching at depth: 20. Size of queue: 1281. Nodes expanded:4299. h:9. f:29
+Searching at depth: 21. Size of queue: 1282. Nodes expanded:4328. h:8. f:29
+Searching at depth: 22. Size of queue: 1741. Nodes expanded:6069. h:9. f:31
+Searching at depth: 23. Size of queue: 2281. Nodes expanded:8131. h:10. f:33
+Searching at depth: 24. Size of queue: 2358. Nodes expanded:8475. h:9. f:33
+Searching at depth: 25. Size of queue: 2486. Nodes expanded:9824. h:8. f:33
+Searching at depth: 26. Size of queue: 2750. Nodes expanded:10660. h:9. f:35
+Searching at depth: 27. Size of queue: 3039. Nodes expanded:11643. h:8. f:35
+Searching at depth: 28. Size of queue: 4932. Nodes expanded:17304. h:9. f:37
+Searching at depth: 29. Size of queue: 6397. Nodes expanded:23943. h:10. f:39
+Searching at depth: 30. Size of queue: 7931. Nodes expanded:30769. h:11. f:41
+Searching at depth: 31. Size of queue: 7965. Nodes expanded:30821. h:10. f:41
+Searching at depth: 32. Size of queue: 10162. Nodes expanded:42194. h:11. f:43
+Searching at depth: 33. Size of queue: 10658. Nodes expanded:43973. h:10. f:43
+Searching at depth: 34. Size of queue: 12839. Nodes expanded:56371. h:9. f:43
+Searching at depth: 35. Size of queue: 12853. Nodes expanded:56393. h:8. f:43
+Searching at depth: 36. Size of queue: 12861. Nodes expanded:56407. h:7. f:43
+Searching at depth: 37. Size of queue: 12863. Nodes expanded:56414. h:6. f:43
+Searching at depth: 38. Size of queue: 16433. Nodes expanded:66103. h:7. f:45
+Searching at depth: 39. Size of queue: 19376. Nodes expanded:84495. h:8. f:47
+Searching at depth: 40. Size of queue: 19786. Nodes expanded:86386. h:7. f:47
+Searching at depth: 41. Size of queue: 19779. Nodes expanded:86401. h:6. f:47
+Searching at depth: 42. Size of queue: 24895. Nodes expanded:113323. h:7. f:49
+Searching at depth: 43. Size of queue: 29234. Nodes expanded:135652. h:6. f:49
+Searching at depth: 44. Size of queue: 37906. Nodes expanded:173964. h:7. f:51
+Searching at depth: 45. Size of queue: 37907. Nodes expanded:173980. h:6. f:51
+Searching at depth: 46. Size of queue: 49303. Nodes expanded:228494. h:7. f:53
+Searching at depth: 47. Size of queue: 53384. Nodes expanded:259607. h:8. f:55
+Searching at depth: 48. Size of queue: 63480. Nodes expanded:314531. h:7. f:55
+Searching at depth: 49. Size of queue: 63486. Nodes expanded:314542. h:6. f:55
+Searching at depth: 50. Size of queue: 63491. Nodes expanded:314550. h:5. f:55
+Searching at depth: 51. Size of queue: 63495. Nodes expanded:314556. h:4. f:55
+Searching at depth: 52. Size of queue: 77276. Nodes expanded:403248. h:5. f:57
+Searching at depth: 53. Size of queue: 77279. Nodes expanded:403257. h:4. f:57
+Searching at depth: 54. Size of queue: 101361. Nodes expanded:521145. h:5. f:59
+Searching at depth: 55. Size of queue: 100629. Nodes expanded:524925. h:4. f:59
+Searching at depth: 56. Size of queue: 123601. Nodes expanded:673856. h:5. f:61
+Searching at depth: 57. Size of queue: 135346. Nodes expanded:716537. h:6. f:63
+Searching at depth: 58. Size of queue: 151016. Nodes expanded:873795. h:7. f:65
+Searching at depth: 59. Size of queue: 151015. Nodes expanded:873822. h:6. f:65
+Searching at depth: 60. Size of queue: 186739. Nodes expanded:1104033. h:7. f:67
+Searching at depth: 61. Size of queue: 223515. Nodes expanded:1233732. h:6. f:67
+Searching at depth: 62. Size of queue: 223519. Nodes expanded:1233741. h:5. f:67
+Searching at depth: 63. Size of queue: 235910. Nodes expanded:1364150. h:4. f:67
+Searching at depth: 64. Size of queue: 235914. Nodes expanded:1364156. h:3. f:67
+Searching at depth: 65. Size of queue: 235916. Nodes expanded:1364160. h:2. f:67
+Searching at depth: 66. Size of queue: 281267. Nodes expanded:1699731. h:3. f:69
+Searching at depth: 67. Size of queue: 282666. Nodes expanded:1745931. h:4. f:71
+Searching at depth: 68. Size of queue: 334810. Nodes expanded:2155111. h:5. f:73
+Searching at depth: 69. Size of queue: 353208. Nodes expanded:2235125. h:4. f:73
+Searching at depth: 70. Size of queue: 396932. Nodes expanded:2643101. h:5. f:75
+Searching at depth: 71. Size of queue: 479266. Nodes expanded:2911680. h:4. f:75
+Searching at depth: 72. Size of queue: 491854. Nodes expanded:3281542. h:5. f:77
+Searching at depth: 73. Size of queue: 567922. Nodes expanded:3639921. h:4. f:77
+Searching at depth: 74. Size of queue: 567924. Nodes expanded:3639941. h:3. f:77
+Searching at depth: 75. Size of queue: 567913. Nodes expanded:3640052. h:2. f:77
+Searching at depth: 76. Size of queue: 567889. Nodes expanded:3640495. h:1. f:77
+Searching at depth: 77. Size of queue: 567892. Nodes expanded:3640516. h:0. f:77
+Found solution at depth 77.
+3640519 nodes expanded.
+Solution:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ]
+
+
+Step 0:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ]
+
+
+Step 1:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][   ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ]
+
+
+Step 2:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][   ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ]
+
+
+Step 3:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][ 6 ][   ][ 7 ][ 8 ][ 9 ][ 1 ]
+
+
+Step 4:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][ 8 ][ 9 ][ 1 ]
+
+
+Step 5:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][   ][ 9 ][ 1 ]
+
+
+Step 6:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ][ 1 ]
+
+
+Step 7:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 8:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][   ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 9:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 10:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][   ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 11:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][   ][ 7 ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 12:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][ 8 ][ 9 ][ 1 ][   ]
+
+
+Step 13:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][   ][ 9 ][ 1 ][   ]
+
+
+Step 14:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ][ 1 ][   ]
+
+
+Step 15:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][ 1 ][   ][   ]
+
+
+Step 16:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ][   ][   ]
+
+
+Step 17:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][   ][ 9 ][   ][   ]
+
+
+Step 18:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 8 ][   ][   ][ 9 ][   ]
+
+
+Step 19:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][ 8 ][   ][ 9 ][   ]
+
+
+Step 20:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][   ][ 8 ][ 9 ][   ]
+
+
+Step 21:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][   ][ 8 ][   ][ 9 ]
+
+
+Step 22:
+                11        12        13            
+               [ 4 ]     [   ]     [ 1 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][   ][   ][ 8 ][ 9 ]
+
+
+Step 23:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][   ][ 1 ][ 8 ][ 9 ]
+
+
+Step 24:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][ 1 ][   ][ 8 ][ 9 ]
+
+
+Step 25:
+                11        12        13            
+               [ 4 ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][ 1 ][   ][   ][ 8 ][ 9 ]
+
+
+Step 26:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][ 7 ][   ][   ][   ][ 8 ][ 9 ]
+
+
+Step 27:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][ 6 ][   ][ 7 ][   ][   ][ 8 ][ 9 ]
+
+
+Step 28:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 5 ][   ][ 6 ][ 7 ][   ][   ][ 8 ][ 9 ]
+
+
+Step 29:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 5 ][ 6 ][ 7 ][   ][   ][ 8 ][ 9 ]
+
+
+Step 30:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 5 ][ 6 ][   ][ 7 ][   ][ 8 ][ 9 ]
+
+
+Step 31:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 5 ][   ][ 6 ][ 7 ][   ][ 8 ][ 9 ]
+
+
+Step 32:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 5 ][   ][ 6 ][   ][ 7 ][ 8 ][ 9 ]
+
+
+Step 33:
+                11        12        13            
+               [ 4 ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][   ][ 5 ][ 6 ][   ][ 7 ][ 8 ][ 9 ]
+
+
+Step 34:
+                11        12        13            
+               [   ]     [ 1 ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][ 5 ][ 6 ][   ][ 7 ][ 8 ][ 9 ]
+
+
+Step 35:
+                11        12        13            
+               [   ]     [ 1 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][ 5 ][ 6 ][   ][   ][ 8 ][ 9 ]
+
+
+Step 36:
+                11        12        13            
+               [   ]     [ 1 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][ 5 ][   ][ 6 ][   ][ 8 ][ 9 ]
+
+
+Step 37:
+                11        12        13            
+               [   ]     [ 1 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][   ][ 5 ][ 6 ][   ][ 8 ][ 9 ]
+
+
+Step 38:
+                11        12        13            
+               [   ]     [ 1 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][   ][ 5 ][   ][ 6 ][ 8 ][ 9 ]
+
+
+Step 39:
+                11        12        13            
+               [   ]     [ 1 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 40:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][   ][ 1 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 41:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][ 1 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 42:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 4 ][   ][ 1 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 43:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 4 ][ 1 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 44:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][ 4 ][   ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 45:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][ 3 ][   ][ 4 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 46:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 2 ][   ][ 3 ][ 4 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 47:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][ 4 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 48:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][   ][ 4 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 49:
+                11        12        13            
+               [ 1 ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][   ][   ][ 4 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 50:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][ 3 ][   ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 51:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][   ][ 3 ][   ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 52:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 2 ][   ][   ][ 3 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 53:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][ 2 ][   ][ 3 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 54:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][ 2 ][   ][   ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 55:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][   ][ 2 ][   ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 56:
+                11        12        13            
+               [ 1 ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][   ][   ][ 2 ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 57:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][   ][ 1 ][ 2 ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 58:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][   ][ 1 ][   ][ 2 ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 59:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[   ][ 1 ][   ][   ][ 2 ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 60:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][   ][   ][   ][ 2 ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 61:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][   ][   ][ 2 ][   ][ 3 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 62:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][   ][   ][ 2 ][ 3 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 63:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][   ][ 2 ][   ][ 3 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 64:
+                11        12        13            
+               [   ]     [ 4 ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][   ][ 3 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 65:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][   ][ 3 ][ 4 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 66:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][ 3 ][   ][ 4 ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 67:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][ 3 ][ 4 ][   ][ 5 ][ 6 ][ 8 ][ 9 ]
+
+
+Step 68:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][ 3 ][ 4 ][ 5 ][   ][ 6 ][ 8 ][ 9 ]
+
+
+Step 69:
+                11        12        13            
+               [   ]     [   ]     [ 7 ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][ 3 ][ 4 ][ 5 ][ 6 ][   ][ 8 ][ 9 ]
+
+
+Step 70:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][   ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ]
+
+
+Step 71:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][   ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ]
+
+
+Step 72:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][   ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ]
+
+
+Step 73:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][   ][ 6 ][ 7 ][ 8 ][ 9 ]
+
+
+Step 74:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][   ][ 7 ][ 8 ][ 9 ]
+
+
+Step 75:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][   ][ 8 ][ 9 ]
+
+
+Step 76:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][   ][ 9 ]
+
+
+Step 77:
+                11        12        13            
+               [   ]     [   ]     [   ]          
+  1    2    3    4    5    6    7    8    9   10  
+[ 1 ][ 2 ][ 3 ][ 4 ][ 5 ][ 6 ][ 7 ][ 8 ][ 9 ][   ]
